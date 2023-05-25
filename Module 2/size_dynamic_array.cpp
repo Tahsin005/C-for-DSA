@@ -16,9 +16,11 @@ int main(){
     }
     cout<<endl;
     // deleting array
-    delete[] a;// delete[] a; will delete memory
+    delete[] a;// delete[] a; will delete memory from
     //heap but won't delete memory from stack
     //it will save space in a long run
+
+    
     // trying to access after deleting
     for(int i=0;i<5;i++){
         cout<<a[i]<<" ";
